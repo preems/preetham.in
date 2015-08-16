@@ -1,0 +1,112 @@
+div[class^=col]
+{
+	padding: 0;
+}
+
+body
+{
+	font-family: Verdana;
+	font-size: 15px;
+}
+
+h1{
+	text-align: center;
+	font-family: Cambria, Georgia, serif;
+	font-weight: bold;
+}
+h2
+{
+	margin-top: 10px;
+	margin-bottom: 3px;
+	/*text-decoration: underline; */
+}
+a{
+	color: black;
+	text-decoration: underline;
+}
+.header2
+{
+	border-bottom: 2px solid;
+	border-color: rgb(63,108,175);
+	margin-bottom: 6px;
+}
+
+.header2 .col-md-12
+{
+	padding-left: 0;
+}
+
+ul
+{
+	padding-left: 15px;
+}
+
+ul li
+{
+	padding-left: 15px;
+	padding-bottom: 2px;
+}
+
+.skills
+{
+	margin-bottom: 2px;
+}
+
+.skilllist
+{
+	margin-bottom: 5px;
+}
+
+.skilllist:last
+{
+	margin-bottom: 25px;
+}
+
+.subtitle
+{
+	font-size: 16px
+}
+
+h2
+{
+	color:rgb(19,40,75);
+	font-family: Cambria, Georgia, serif;
+	font-size: 27px;
+
+}
+
+.downloadlink
+{
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.socialicons
+{
+	margin-bottom: 20px;
+}
+
+.socialicons img
+{
+	margin-right: 10px;
+}
+
+.textcenter
+{
+	text-align: center;
+}
+
+.textright
+{
+	text-align: right;
+}
+
+.textcenter
+{
+	text-align: center;
+}
+
+.projectlist p:nth-child(even)
+{
+	margin-bottom: 0;
+}
