@@ -1,0 +1,163 @@
+doctype html(lang='en')
+html
+  head
+    meta(charset='utf-8')     
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')     
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='Preetham MS')
+    title Preetham MS
+    // Bootstrap Core CSS
+    link(href="http:////maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css", rel="stylesheet")
+    link(href='includes/styles/flat-ui.min.css', rel='stylesheet')
+    link(href='includes/styles/scrolling-nav.css', rel='stylesheet')
+    link(href='includes/styles/font-awesome.min.css', rel='stylesheet')
+    link(href='includes/styles/site.css', rel='stylesheet')
+      
+  body#page-top(data-spy='scroll', data-target='.navbar-fixed-top')
+    nav.navbar.navbar-inverse.navbar-fixed-top(role='navigation')
+      .container
+        .navbar-header.page-scroll
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex1-collapse')
+            span.sr-only Toggle navigation                 
+            span.icon-bar                
+            span.icon-bar               
+            span.icon-bar      
+          a.navbar-brand.page-scroll(href='#page-top') Preetham MS
+        .collapse.navbar-collapse.navbar-ex1-collapse
+          ul.nav.navbar-nav
+            li.hidden
+              a.page-scroll(href='#page-top')
+            li
+              a.page-scroll(href='#about') About
+            li
+              a.page-scroll(href='#projects') Projects
+            li
+              a.page-scroll(href='#contact') Contact
+        // /.navbar-collapse
+      // /.container
+    // Intro Section
+    section#intro.intro-section
+      .container
+        .row
+          .col-lg-12
+            h1 Hello, I am Preetham MS
+            a.page-scroll(href='#about')
+              i.fa.fa-chevron-down
+    // About Section
+    section#about.about-section
+      .container
+        .row
+          .col-lg-12
+            h2 About me
+        .row
+          .col-lg-6
+            i.fa.fa-code
+            p I believe in bringing life to new ideas and make awesome stuff with code.
+          .col-lg-6
+            i.fa.fa-university
+            p I am a Student and Research Assistant at NC State University.
+        .row
+          .col-lg-6
+            i.fa.fa-file-text
+            p Check out my 
+              a(href='http://preetham.in/resume',target='_blank') Resume. 
+              | I am looking for new opportunities. Feel free to read my 
+              a(href='http://blog.preetham.in',target='_blank') Blog.
+          .col-lg-6
+            span.glyphicon.glyphicon-briefcase
+            p I was working as a Software Engineer at Cisco Systems
+            
+    // Services Section
+    section#projects.projects-section
+      .container
+        .row
+          .col-lg-12
+            h1 My Projects
+        .row
+          .col-lg-4
+            h4 
+              a(href='http://provocab.com') ProVocab
+            p Intelligent online tool for managing daily vocab learning.
+          .col-lg-4
+            h4
+              a(href="http://preetham.in/public/twitter") Twitter Sentiment Search
+            p Real-time sentiment analysis of tweets and visualization of results based on user query. Built on NLTK, Python and Bootstrap.
+          .col-lg-4
+            h4
+              a(href="http://nltk-server.rtfd.org") Nltk-server
+            p Project intended to make NLTK accessible to all programming languages by building a JSON based interface.
+        .row
+          .col-lg-4
+            h4 
+              a(href="http://preetham.in/public/rally") Rally task manager
+            p Responsive website for managing Rally tasks.
+          .col-lg-4
+            h4 
+              a(href="http://github/preems/whatsapp-desktop") Whatsapp desktop client
+            p A native cross platform application for Whatsapp. Runs on Windows, OSX and Linux.
+          .col-lg-4
+            h4 
+              a(href="https://github.com/preems/cluster-provisioning") Cluster provisioning tool
+            p Automatic provisioning of clusters and applications like Hadoop, MongoDB on cloud providers like Digital Ocean, AWS and OpenStack.
+    // Contact Section
+    section#contact.contact-section
+      .container
+        .row
+          .col-lg-12
+            h1 Contact me
+            p Feel free me send me a mail on 
+              a(href='mailto:me@preetham.in') me@preetham.in
+            .contactform.form-group
+              input.form-control(id='name',placeholder='Name')
+              input.form-control(id='email',placeholder='Email Address')
+              input.form-control(id='phone',placeholder='Phone Number')
+              textarea.form-control(id='message',placeholder='Message')
+              button.btn.btn-lg.btn-primary(id='sendbutton',type='submit',data-loading="Sending...") Send   
+
+    footer.text-center.footer-inverse
+      .footer-top
+        .container
+          .row
+            .col-lg-12
+              ul.list-inline
+                li
+                  a(href="https://facebook.com/preetham",target="_blank").social-icon
+                    i.fa.fa-facebook
+                li
+                  a(href="https://twitter.com/mspreetham",target="_blank").social-icon
+                    i.fa.fa-twitter
+                li
+                  a(href="https://linkedin.com/in/preems",target="_blank").social-icon
+                    i.fa.fa-linkedin
+                li
+                  a(href="https://github.com/preems",target="_blank").social-icon
+                    i.fa.fa-github  
+              //h5 Find me on web
+                                                 
+            .col-md-4
+      .footer-bottom
+        .container
+          .row
+            .col-lg-12
+              p Built using Bootstrap, jQuery and Jade.
+            |  Copyright &copy; 2015, Preetham MS          
+    // jQuery
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js')
+    script(src='includes/js/site.js')
+    // Bootstrap Core JavaScript
+    script(src="http:////maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js")
+    // Scrolling Nav JavaScript
+    script(src='includes/js/jquery.easing.min.js')
+    script(src='includes/js/scrolling-nav.js')
+    script
+      | var sc_project=10241955; 
+      | var sc_invisible=1; 
+      | var sc_security="60262c4f"; 
+      | var scJsHost = (("https:" == document.location.protocol) ?
+      | "https://secure." : "http://www.");
+      | document.write("<sc"+"ript type='text/javascript' src='" +
+      | scJsHost+
+      | "statcounter.com/counter/counter.js'></"+"script>");
+
+
